@@ -48,7 +48,7 @@ const App = () => {
           <Route path='/products' element={<ProductCatalogue />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<ContactUs />} />
-          <Route path='/product/:id' element={<ProductDetails />} />
+          <Route path='/products/product/:id' element={<ProductDetails />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='*' element={<Home />} />
           {!user && <Route path='/account/auth' element={<Register />} />}
